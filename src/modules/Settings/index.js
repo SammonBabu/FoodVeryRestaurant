@@ -56,7 +56,6 @@ const Settings = () => {
     setRestaurant(newRestaurant);
     message.success("Restaurant has been created!");
   };
-
   const updateRestaurant = async () => {
     const updatedRestaurant = await DataStore.save(
       Restaurant.copyOf(restaurant, (updated) => {
