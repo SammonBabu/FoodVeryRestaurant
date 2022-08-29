@@ -42,8 +42,8 @@ const Settings = () => {
       new Restaurant({
         name,
         image:
-          "https://duyt4h9nfnj50.cloudfront.net/resized/91d019f054dbf3c17ee994eb8d57b502-w240-83.jpg",
-        deliveryFee: 0,
+          "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        deliveryFee: 50,
         minDeliveryTime: 15,
         maxDeliveryTime: 60,
         address: address.label,
