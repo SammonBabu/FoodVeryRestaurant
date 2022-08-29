@@ -97,9 +97,9 @@ const Settings = () => {
           </Button>
         </Form.Item>
       </Form>
-      <span>
+      {/* <span>
         {coordinates?.lat} - {coordinates?.lng}
-      </span>
+      </span> */}
     </Card>
   );
 };
